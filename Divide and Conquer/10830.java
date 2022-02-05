@@ -19,7 +19,7 @@ public class Main{
 		for(int i=0;i<N;i++) {
 			st = new StringTokenizer(br.readLine()," ");
 			for(int j=0;j<N;j++) {
-				list[i][j] = Integer.parseInt(st.nextToken());
+				list[i][j] = Integer.parseInt(st.nextToken()) %1000;
 			}
 		}
 		
